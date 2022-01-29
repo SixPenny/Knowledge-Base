@@ -1,0 +1,4 @@
+.trash/
+.DS_Store
+# OR only to exclude workspace cache
+.obsidian/workspaces.json

@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "e3262f09bd9c5980",
+    "type": "split",
+    "children": [
+      {
+        "id": "145caeafad40db6d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Anglish/Harry Potter/1. THE SORCERER'S STONE.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e06c769dfbc480f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8c63ba99e807ef5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fc5757c5c08ce29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "95f28e5309b9fdaf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "923a438b29e5bafc",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 346
+  },
+  "right": {
+    "id": "bc266fa28debde2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad02633ecd6a548e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65c1138168eb0a0e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Anglish/Harry Potter/1. THE SORCERER'S STONE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bd9af258998efbe4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Anglish/Harry Potter/1. THE SORCERER'S STONE.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "6d5b1f635876295e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ff4fff32d58575ba",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "145caeafad40db6d",
+  "lastOpenFiles": [
+    "Anglish/Harry Potter/1. THE SORCERER'S STONE.md",
+    "Anglish/Words/Falter.md",
+    "Anglish/Words/Glumly.md",
+    "Anglish/Words/Exasperated.md",
+    "Anglish/Words/Flinch.md",
+    "Anglish/Words/Rummage.md",
+    "Anglish/Words/Spectacle.md",
+    "Anglish/Words/Twitch.md",
+    "Anglish/Roots/Roots.md",
+    "Anglish/Words/Quiver.md"
+  ]
+}

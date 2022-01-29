@@ -1,0 +1,1 @@
+Not moving, especially owing to some strong emotion. For example, When the truck bore down on the dog, he was terrified and stood rooted to the spot. This idiom likens the roots of a plant to a strong feeling that keeps one from moving.
