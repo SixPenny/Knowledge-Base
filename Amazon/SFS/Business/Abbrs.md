@@ -1,0 +1,23 @@
+- BPS: https://w.amazon.com/bin/view/BasisPoint
+-  Glance View Speed (GVS): Glance view is synonymous with detail page (DP) view and defines the action of a Customer viewing a product. The delivery promise shown to the Customer on DP is the Glance View Speed and is measured as the different Promised Delivery Date to the Glance View date. Not all Glance Views may lead to an order.
+- C2P
+	-  [ClickToProcess](https://w.amazon.com/bin/view/ClickToProcess/) - Metric timing from order creation until pieces of that order are ready to be physically picked in a warehouse
+	-   [ClickToPromise](https://w.amazon.com/bin/view/ClickToPromise/) - Metric timing from order creation until the [promise](https://w.amazon.com/bin/view/promise/),  the targeted delivery date given to the customer at order placement
+-   C2S: Click to Ship
+	-   Overall, there are two main **differences between shipping and delivery**. The first being the size: smaller items are shipped while larger items are delivered. The second difference is the date on which each takes place. Shipping dates usually refer to when an item leaves the [warehouse](https://www.apsfulfillment.com/product-fulfillment-services/warehousing-solutions/) while the delivery date specifies when it should reach the customer.
+-   Click-to-Promise (C2P): The amount of time between when an order is placed and the latest promised arrival date (latest promised arrival datetime – order datetime)
+-   Click-to-Deliver (C2D): The amount of time between when an order is placed and the actual arrival date. This can only be determined if the order has tracking. (carrier last scan datetime – order datetime)
+-   Handling Time (HT): The amount of time between when an order is placed and when it is shipped. For promises, the latest promised ship date is used, for actuals the ship confirmation is used.
+-   Transit Time (TT): The amount of time between when an order is shipped and when it is delivered. For promises, the latest promised ship/arrival date is used, for actuals the ship confirmation/ carrier last scan confirmation is used. Actuals can only be calculated for orders with tracking.
+-   Ship Estimate Accuracy (SEA): How often a seller ship on or before the latest promised ship time. (# of orders shipped on time / total orders)
+-   Delivery Estimate Accuracy (DEA): How often orders arrive on or before the latest promised delivery date/time (on-time orders/orders with carrier last scan (1st attempted delivery scan))
+-   Late Ship Rate (LSR): The opposite of SEA, how often a seller ships later than the latest promised ship date.
+-   Promise Window: The amount of time between the earliest and latest delivery days. If an order is promised to be delivered between June 3rd and June 5th, the promise window is 2 days.
+-   Promise Precision: How often packages arrive within the earliest and latest promised delivery dates (i.e. within the promise window).
+-   First Scan: The first scan by a carrier, usually when the package initially arrives at the carrier facility. This is used for calculating tracking as any package with tracking will have a first scan, but not necessarily a last scan.
+-   Last Scan: This scan occurs at the first attempted delivery by the carrier. This is the first possible time the package could have been delivered (it may not have been if the customer was not home and therefore could not sign if the package required it).
+-   Tracked Orders: Orders with a carrier first scan. This is the numerator for calculating tracking.
+-   Valid Tracked Orders: Orders with a carrier last scan. This is used as the denominator for calculating delivery metrics.
+-   Valid Tracking Rate (VTR): How often a population of orders is tracked. Usually calculated as (tracked orders/total orders). This is useful for a variety of reasons, primarily for gauging the % of the population the delivery data represents.
+-   BMVD/Non-BMVD: Books, Music, Video, DVD (aka Media), GLs (14, 15, 27, 74). In the US, these items qualify for USPS Media Mail, which is very inexpensive and has a specific SLA. As such, they are measured separately from other GLs.
+-   Ship-By-Region (SBR): Ship by Region is the architecture that sellers use to manage and regionalize their shipping settings and shipping prices. [SBR Wiki](https://w.amazon.com/bin/view/w/amazon/com%2Findex/php%2FMFN%2FProjects%2FShip%2520by%2520Region/)
